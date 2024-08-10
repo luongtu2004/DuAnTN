@@ -17,6 +17,9 @@ module.exports = {
               }
         },
         extend: {
+            gridTemplateColumns: {
+                '800-481': '800px 481px',
+              },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
